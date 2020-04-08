@@ -14,7 +14,7 @@ public class Ricerca {
 	 */
 	public List<String> anagrammi(String parola) {
 		this.soluzione=new ArrayList<String>();
-		// caso iniziale,, devo preparare le variabili necessarie all'avvio della ricorsione
+		// caso iniziale, devo preparare le variabili necessarie all'avvio della ricorsione
 		parola.toUpperCase();//così non ho problemi di differenza tra maiusc e minusc
 		List<Character> disponibili= new ArrayList<Character>();
 		for(int i=0;i<parola.length();i++) {
